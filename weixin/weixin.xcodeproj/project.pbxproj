@@ -13,6 +13,7 @@
 		259BB7DA1D4E262C00E7EECF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259BB7D81D4E262C00E7EECF /* Main.storyboard */; };
 		259BB7DC1D4E262C00E7EECF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259BB7DB1D4E262C00E7EECF /* Assets.xcassets */; };
 		259BB7DF1D4E262C00E7EECF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259BB7DD1D4E262C00E7EECF /* LaunchScreen.storyboard */; };
+		259BB7E81D4E279600E7EECF /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 259BB7E71D4E279600E7EECF /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		259BB7DB1D4E262C00E7EECF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		259BB7DE1D4E262C00E7EECF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		259BB7E01D4E262C00E7EECF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259BB7E61D4E279600E7EECF /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		259BB7E71D4E279600E7EECF /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				259BB7DD1D4E262C00E7EECF /* LaunchScreen.storyboard */,
 				259BB7E01D4E262C00E7EECF /* Info.plist */,
 				259BB7CF1D4E262C00E7EECF /* Supporting Files */,
+				259BB7E61D4E279600E7EECF /* Dog.h */,
+				259BB7E71D4E279600E7EECF /* Dog.m */,
 			);
 			path = weixin;
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			files = (
 				259BB7D71D4E262C00E7EECF /* ViewController.m in Sources */,
 				259BB7D41D4E262C00E7EECF /* AppDelegate.m in Sources */,
+				259BB7E81D4E279600E7EECF /* Dog.m in Sources */,
 				259BB7D11D4E262C00E7EECF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
